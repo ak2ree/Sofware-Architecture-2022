@@ -4,7 +4,7 @@ docker search kafka
 
 docker images
 
-docker tag ping alibek/ping:1.0
+docker tag ping delner/ping:1.0
 
 docker images
 
