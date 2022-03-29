@@ -6,8 +6,8 @@ docker ps -a
 
 docker commit --help
 
-docker commit -a 'Alibek Sayak' -m 'Added ping utility.' 786 alibek/ping
+docker commit -a 'Yeltay Aktore' -m 'Added ping utility.' 786 delner/ping
 
 docker images
 
-docker run -it --rm alibek/ping /bin/bash
+docker run -it --rm delner/ping /bin/bash
