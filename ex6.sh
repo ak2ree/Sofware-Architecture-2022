@@ -2,15 +2,15 @@ docker network ls
 
 docker network inspect bridge
 
-docker run --rm -d --name dummy alibek/ping:1.0
+docker run --rm -d --name dummy delner/ping:1.0
 
-docker run --rm -d -e PING_TARGET=172.17.0.2 --name pinger alibek/ping:1.0
+docker run --rm -d -e PING_TARGET=172.17.0.2 --name pinger delner/ping:1.0
 
 docker ps
 
 docker logs pinger
 
-docker run --rm -d -e PING_TARGET=dummy --name pinger alibek/ping:1.0
+docker run --rm -d -e PING_TARGET=dummy --name pinger delner/ping:1.0
 
 docker ps
 
@@ -20,9 +20,9 @@ docker network ls
 
 docker network inspect skynet
 
-docker run --rm -d --network skynet --name dummy alibek/ping:1.0
+docker run --rm -d --network skynet --name dummy delner/ping:1.0
 
-docker run --rm -d --network skynet -e PING_TARGET=dummy --name pinger alibek/ping:1.0
+docker run --rm -d --network skynet -e PING_TARGET=dummy --name pinger delner/ping:1.0
 
 docker logs pinger
 
