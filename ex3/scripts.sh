@@ -4,7 +4,7 @@ docker images
 
 touch Dockerfile
 
-docker build -t 'alibek/ping' .
+docker build -t 'delner/ping' .
 
 docker images
 
