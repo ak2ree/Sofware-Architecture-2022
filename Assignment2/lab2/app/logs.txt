@@ -1,0 +1,8 @@
+Sun, 07 APR 2022 20:02:23 GMT
+Sun, 07 APR 2022 20:02:26 GMT
+Sun, 07 APR 2022 20:02:29 GMT
+Sun, 07 APR 2022 20:02:32 GMT
+Secret message is:
+"Volume bind mount is easy"
+Sun, 07 APR 2022 20:02:38 GMT
+Sun, 07 APR 2022 20:02:41 GMT
